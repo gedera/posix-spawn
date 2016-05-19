@@ -512,7 +512,7 @@ module POSIX
         sh = ENV['COMSPEC'] || 'cmd.exe'
         [[sh, sh], '/c']
       else
-        [['/bin/sh', '/bin/sh'], '-c']
+        [['/bin/bash', '/bin/bash'], '-c']
       end
     end
 
